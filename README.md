@@ -33,7 +33,7 @@ pour celà il faut envoyer en Post au format json les données suivantes à l'ur
 'password': 'kawabunga'
 ```
 l'api retourne alors l'accessKeyId, l'accessSecretKey et un token valide au format json
-![autentification et récupération du token](/docs/authent.png)
+![autentification et récupération du token](/docs/authentification.png)
 
 ## Autorisation
 Acceder maintenant en GET à l'url `http://localhost:5000/api/project` en envoyant dans le header 
