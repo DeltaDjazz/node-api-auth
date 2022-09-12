@@ -1,0 +1,20 @@
+
+### Tests réalisés avec l'extention "Rest Client" de VSCode
+
+### Accueil
+http://localhost:5000/api
+
+### authent
+POST http://localhost:5000/api/common/auth/authorize
+Content-Type: application/json
+
+{
+    "name":"webmaster",
+    "password": "kawabunga"
+}
+
+### project
+GET http://localhost:5000/api/project
+Content-Type: application/json
+HEADERS : 6779ef20e75817b79602 zaijdDIahuif24ze7de
+AUTH: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkFLSUFJT1NGT0ROTjcyMzQ5MDk0IiwiaWF0IjoxNjYyOTY5MjU0LCJleHAiOjE2NjI5NzI4NTR9.tO0MwSoMTJPyTBYNMZW6PEy1egg-XUR5Vpdf06FT3_8

@@ -7,8 +7,8 @@ Le projet ** NODEJS API AUTH** est une API REST avec authentification
 S'assurer d'avoir  **node > v10** d'installé sur son OS.
 Ouvrir un terminal, se positioner dans le repertoire où l'on souhaite installer le projet et faire : 
 ``` 
-git clone https://github.com/deltadjazz/nodejs-api-auth
-cd nodejs-api-auth
+git clone https://github.com/DeltaDjazz/node-api-auth.git
+cd node-api-auth
 npm install
 ```
 Créer à la racine du projet un fichier .env et y ajouter le **TOKEN_SECRET**, voir l'exemple ci dessous
